@@ -5,10 +5,11 @@ import ColorBends from './HeroBack'
 import CurvedLoop from './CurvedLoop'
 import GradualBlur from './GradualBlur'
 import Dock from './Dock'
+import Tab from './Tab'
 function Hero() {
   return (
     <div className='bg-primary-dark h-screen w-full relative overflow-y-hidden'>
-        
+        <Tab/>
         <HeroTopBar/>
         <div className='text-white w-full flex justify-center items-center flex-col mt-40' style={{zIndex:2}}>
             <div>

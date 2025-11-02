@@ -6,7 +6,7 @@ function Dock() {
   const [showBar, setShowBar] = useState(false);
 
   return (
-    <motion.div
+    <motion.div style={{zIndex:900}}
       key="dock"
       initial={{ opacity: 0, y: 100, scale: 0.9 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
